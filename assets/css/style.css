@@ -170,3 +170,12 @@ header {
 #learn-more-btn:hover {
     background-color: rgba(9, 93, 126, 0.8);
 }
+
+/* our services homepage */
+#home-services {
+    margin: 20px 0;
+    padding: 20px 0;
+    width: 100%;
+    line-height: 1.5;
+    clear: both;
+}
