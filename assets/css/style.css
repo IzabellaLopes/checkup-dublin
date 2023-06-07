@@ -21,6 +21,10 @@ h2 {
     color: #000085;
 }
 
+h2 {
+    text-transform: uppercase;
+}
+
 header {
     padding: 20px;
     text-align: center;
@@ -77,6 +81,8 @@ header {
     height: 600px;
     width: 100%;
     overflow: hidden;
+
+    position: relative;
 }
 
 #hero-image {
@@ -99,4 +105,32 @@ header {
     to {
         transform: scale(1.1);
     }
+}
+
+#cover-text,
+#cover-text h2 {
+    color: #f1f9ff;
+    text-align: center;
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: Ubuntu, sans-serif;
+    letter-spacing: 3px;
+
+    width: 780px;
+    height: 200px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: rgba(9, 93, 126, 0.8);
+
+    bottom: 50px;
+    left: 150px;
+
+    position: absolute;
+
+    border-radius: 5px;
 }
