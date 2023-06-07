@@ -179,3 +179,24 @@ header {
     line-height: 1.5;
     clear: both;
 }
+
+#home-checkup {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.img-services {
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: inline-block;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.img-services img {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
