@@ -11,3 +11,19 @@ body {
     font-weight: 300;
     color: #3a3a3a;
 }
+
+/* headings and logo */
+
+h1,
+h2 {
+    font-family: Ubuntu, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #000085;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+    text-transform: capitalize;
+}
