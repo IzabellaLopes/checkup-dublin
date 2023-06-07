@@ -50,6 +50,10 @@ header {
     margin-right: 30px;
 }
 
+#menu li:last-child {
+    margin-right: 0;
+}
+
 #menu a {
     text-decoration: none;
     color: inherit;
