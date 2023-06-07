@@ -17,12 +17,10 @@ body {
 h1,
 h2 {
     font-family: Ubuntu, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
     letter-spacing: 3px;
     color: #000085;
-}
-
-h2 {
-    text-transform: uppercase;
 }
 
 header {
@@ -33,6 +31,7 @@ header {
 #logo {
     float: left;
     font-size: 280%;
+    text-transform: capitalize;
 }
 
 /* navigation links */
@@ -133,4 +132,41 @@ header {
     position: absolute;
 
     border-radius: 5px;
+}
+
+/* about us homepage */
+.title {
+    font-size: 230%;
+}
+#home-about {
+    margin: 20px 0;
+    padding: 20px 0;
+    width: 100%;
+    background-color: #E4EDF6;
+    line-height: 1.5;
+    clear: both;    
+}
+
+#home-about p {
+    text-align: center;
+    font-size: larger;
+    padding: 20px;
+}
+
+.button {
+    text-align: center;
+}
+
+#learn-more-btn {
+    display: inline-block;
+    width: auto;
+    padding: 10px 20px;
+    background-color: #000085;
+    color: #f1f9ff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#learn-more-btn:hover {
+    background-color: rgba(9, 93, 126, 0.8);
 }
