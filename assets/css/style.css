@@ -138,13 +138,14 @@ header {
 .title {
     font-size: 230%;
 }
+
 #home-about {
     margin: 20px 0;
     padding: 20px 0;
     width: 100%;
     background-color: #E4EDF6;
     line-height: 1.5;
-    clear: both;    
+    clear: both;
 }
 
 #home-about p {
@@ -199,4 +200,12 @@ header {
     width: 300px;
     height: 300px;
     border-radius: 5px;
+}
+
+.text-services {
+    background-color: #f0f0f0;
+}
+
+.text-services p {
+    font-size: larger;
 }
