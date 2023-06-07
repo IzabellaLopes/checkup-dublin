@@ -181,7 +181,8 @@ header {
     clear: both;
 }
 
-#home-checkup {
+#home-checkup,
+#home-clinical {
     width: 100%;
     padding: 20px;
     box-sizing: border-box;
