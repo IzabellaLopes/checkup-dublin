@@ -213,10 +213,19 @@ header {
 }
 
 /* testimonials */
+#testimonials {
+    width: 100%;
+    line-height: 1.5;
+}
+
+#testimonials h1 {
+    padding-bottom: 20px;
+}
+
 #testimonials>div{
     background-color: #E4EDF6;
     width: 25%;
-    height: 380px;
+    height: auto;
     float: left;
     padding-top: 30px;
     padding-left: 10px;
@@ -230,5 +239,9 @@ header {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+}
+
+#testimonials p {
+    padding-bottom: 20px;
 }
 
