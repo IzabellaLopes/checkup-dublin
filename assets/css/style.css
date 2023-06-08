@@ -336,6 +336,7 @@ footer {
 }
 
 /* our services */
+
 #our-services {
     display: flex;
     justify-content: space-between;
@@ -375,4 +376,24 @@ footer {
 #our-services li,
 #our-services p {
     font-size: 110%;
+}
+
+/* gallery */
+
+#gallery h1 {
+    padding-top: 20px;
+}
+
+#photos-gallery {
+    margin-top: 20px;
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos-gallery>img {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
 }
