@@ -153,9 +153,7 @@ header {
     clear: both;
 }
 
-#home-about p,
-#welcome p,
-#our-team p {
+.centered-text {
     text-align: center;
     font-size: larger;
     padding: 20px;
