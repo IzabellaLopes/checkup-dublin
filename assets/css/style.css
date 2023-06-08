@@ -135,6 +135,7 @@ header {
 }
 
 /* about us homepage */
+
 .title {
     font-size: 230%;
 }
@@ -173,6 +174,7 @@ header {
 }
 
 /* our services homepage */
+
 #home-services {
     margin: 20px 0;
     padding: 20px 0;
@@ -213,6 +215,7 @@ header {
 }
 
 /* testimonials */
+
 #testimonials {
     width: 100%;
     line-height: 1.5;
@@ -245,3 +248,23 @@ header {
     padding-bottom: 20px;
 }
 
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
