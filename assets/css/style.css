@@ -23,6 +23,10 @@ h2 {
     color: #000085;
 }
 
+h3 {
+    letter-spacing: 3px;
+}
+
 header {
     padding: 20px;
     text-align: center;
@@ -302,3 +306,35 @@ footer {
     padding: 20px 0;
 }
 
+#photos-our-team {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#photos-our-team>div {
+    text-align: center;
+    margin: 0 20px;
+}
+
+.photo-team {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-team img {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#photos-our-team h3 {
+    font-size: 28px;
+    margin-top: 20px;
+}
