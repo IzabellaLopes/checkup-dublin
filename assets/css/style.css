@@ -463,3 +463,50 @@ textarea {
     color: #f1f9ff;
     display: block;
 }
+
+.send-button:hover {
+    background-color: rgba(9, 93, 126, 0.8);
+}
+
+/* contact */
+#contact {
+    margin: 20px 0;
+}
+
+.contact-boxes-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.contact-box-left {
+    flex-basis: 30%;
+}
+
+.contact-box-center {
+    flex-basis: 30%;
+    text-align: center;
+    height: 113.6px;
+}
+
+.contact-box-right {
+    flex-basis: 30%;
+    line-height: 1.5;
+    height: 113.6px;
+}
+
+.contact-box-left h3 {
+    padding: 0 0 10px 40px;
+}
+
+th,
+td {
+    padding: 5px;
+    text-align: center;
+}
+
+.contact-box-center p {
+    line-height: 1.5;
+}
