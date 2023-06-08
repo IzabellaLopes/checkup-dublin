@@ -469,6 +469,7 @@ textarea {
 }
 
 /* contact */
+
 #contact {
     margin: 20px 0;
 }
@@ -479,6 +480,7 @@ textarea {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    padding: 20px 0;
 }
 
 .contact-box-left {
@@ -509,4 +511,18 @@ td {
 
 .contact-box-center p {
     line-height: 1.5;
+}
+
+/* map */
+
+#map-wrapper {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    border: none;
 }
