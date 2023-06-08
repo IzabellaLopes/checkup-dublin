@@ -226,8 +226,9 @@ header {
     line-height: 20px;
 }
 
-#testimonials img {
+.img-testimonials img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
 }
+
