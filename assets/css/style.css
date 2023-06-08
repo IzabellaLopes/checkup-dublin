@@ -149,7 +149,8 @@ header {
     clear: both;
 }
 
-#home-about p {
+#home-about p,
+#welcome p {
     text-align: center;
     font-size: larger;
     padding: 20px;
@@ -221,11 +222,12 @@ header {
     line-height: 1.5;
 }
 
-#testimonials h1 {
+#testimonials h1,
+#welcome h1 {
     padding-bottom: 20px;
 }
 
-#testimonials>div{
+#testimonials>div {
     background-color: #E4EDF6;
     width: 25%;
     height: auto;
@@ -270,7 +272,19 @@ footer {
 }
 
 /* welcome section */
+
+#welcome {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#welcome>div {
+    width: 50%;
+}
+
 #welcome img {
     max-width: 100%;
     height: auto;
+    border-radius: 5px;
 }
