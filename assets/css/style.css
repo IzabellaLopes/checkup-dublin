@@ -268,3 +268,9 @@ footer {
     padding: 5%;
     color: #3a3a3a;
 }
+
+/* welcome section */
+#welcome img {
+    max-width: 100%;
+    height: auto;
+}
