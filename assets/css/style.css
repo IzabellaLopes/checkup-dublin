@@ -334,3 +334,44 @@ footer {
     font-size: 28px;
     margin-top: 20px;
 }
+
+/* our services */
+#our-services {
+    display: flex;
+    justify-content: space-between;
+}
+
+#complete-checkup,
+#clinical-investigations,
+#exams {
+    flex-basis: 30%;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#complete-checkup {
+    background-color: #E3F2FD;
+}
+
+#clinical-investigations {
+    background-color: #FFF9C4;
+}
+
+#exams {
+    background-color: #e0e0e0;
+}
+
+#our-services ul,
+#our-services p {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 20px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+#our-services li,
+#our-services p {
+    font-size: 110%;
+}
