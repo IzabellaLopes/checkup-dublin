@@ -225,9 +225,7 @@ header {
     line-height: 1.5;
 }
 
-#testimonials h1,
-#welcome h1,
-#our-team h1 {
+.pb-20 {
     padding-bottom: 20px;
 }
 
