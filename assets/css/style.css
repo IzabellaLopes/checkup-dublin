@@ -182,7 +182,8 @@ header {
 }
 
 #home-checkup,
-#home-clinical {
+#home-clinical,
+#home-exams {
     width: 100%;
     padding: 20px;
     box-sizing: border-box;
