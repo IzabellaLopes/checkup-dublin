@@ -527,3 +527,32 @@ td {
     width: 100%;
     border: none;
 }
+
+/* Media queries */
+
+/* For larger to medium screen sizes from 1300px wide and down */
+@media screen and (max-width: 1300px) {
+    #photos-our-team {
+        flex-wrap: wrap;
+    }
+
+    #photos-our-team>div {
+        flex-basis: 50%;
+        margin: 20px 0;
+    }
+
+    .photo-team {
+        width: 250px;
+        height: 250px;
+    }
+
+    .photo-team img {
+        width: 220px;
+        height: 220px;
+    }
+
+    #photos-our-team h3,
+    #photos-our-team p {
+        text-align: left;
+    }
+}
