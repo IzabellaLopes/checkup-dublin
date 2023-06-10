@@ -532,6 +532,10 @@ td {
 
 /* For larger to medium screen sizes from 1200px wide and down */
 @media screen and (max-width: 1200px) {
+    #menu {
+        clear: both
+    }
+
     #photos-our-team {
         flex-wrap: wrap;
     }
