@@ -530,8 +530,8 @@ td {
 
 /* Media queries */
 
-/* For larger to medium screen sizes from 1300px wide and down */
-@media screen and (max-width: 1300px) {
+/* For larger to medium screen sizes from 1200px wide and down */
+@media screen and (max-width: 1200px) {
     #photos-our-team {
         flex-wrap: wrap;
     }
