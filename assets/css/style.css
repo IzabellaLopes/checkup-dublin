@@ -248,8 +248,10 @@ header {
     border-radius: 50%;
 }
 
-#testimonials p {
-    padding-bottom: 20px;
+.name-testimonials {
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: larger;
 }
 
 /* footer */
