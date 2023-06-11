@@ -587,4 +587,20 @@ td {
         left: 100px;
         font-size: 80%;
     }
+
+    #photos-gallery {
+        column-count: 3;
+    }
+
+    #photos-gallery>img {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+/* For small screen sizes from 800px wide and down */
+@media screen and (max-width: 800px) {
+    #photos-gallery {
+        column-count: 2;
+    }
 }
