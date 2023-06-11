@@ -19,6 +19,16 @@ The color palette was created using the [Coolors](https://coolors.co/) website.
 
 ### Typography
 
+Google Fonts was used for the following fonts: 
+
+* Ubuntu for Titles:
+ - Sans-serif font
+ - Professional and modern appearance
+
+* Questrial for Body:
+ - Sans-serif fonr
+ - Clean and elegant design, that provides pleasant reading experience
+
 
 ### Imagery
 
