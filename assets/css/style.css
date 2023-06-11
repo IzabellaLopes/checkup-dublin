@@ -528,6 +528,15 @@ td {
     border: none;
 }
 
+/* Thank you */
+#thankyou {
+    background-color: #E4EDF6;
+}
+
+#footer-thankyou {
+    padding-top: 600px;
+}
+
 /* Media queries */
 
 /* For larger to medium screen sizes from 1200px wide and down */
