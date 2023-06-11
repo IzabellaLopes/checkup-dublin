@@ -14,6 +14,8 @@ The choice of colors plays a crucial role in shaping the overall perception of p
 
 The gentle blues establish an atmosphere of calmness and hospitality, while the grays and deeper blues introduce contrast and structure.
 
+![CheckUp Dublin Center Website Color Palette](documentation/colorpalette.png)
+
 The color palette was created using the [Coolors](https://coolors.co/) website.
 
 
