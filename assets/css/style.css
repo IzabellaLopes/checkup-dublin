@@ -528,12 +528,12 @@ td {
     border: none;
 }
 
-/* Thank you */
-#thankyou {
+/* Thank you and 404 */
+.thank404 {
     background-color: #E4EDF6;
 }
 
-#footer-thankyou {
+.footer-thank404 {
     padding-top: 600px;
 }
 
