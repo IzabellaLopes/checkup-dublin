@@ -163,7 +163,7 @@ header {
     text-align: center;
 }
 
-#learn-more-btn {
+.learn-more-btn {
     display: inline-block;
     width: auto;
     padding: 10px 20px;
@@ -173,7 +173,7 @@ header {
     border-radius: 5px;
 }
 
-#learn-more-btn:hover {
+.learn-more-btn:hover {
     background-color: rgba(9, 93, 126, 0.8);
 }
 
