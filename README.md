@@ -8,7 +8,13 @@ The goal of the CheckUp Dublin Center website is to provide a virtual clinic exp
 
 ## Design
 
-### Colour Scheme
+### Color Scheme
+
+The choice of colors plays a crucial role in shaping the overall perception of professionalism, trustworthiness, and clarity when creating a website for CheckUp Dublin Center.
+
+The gentle blues establish an atmosphere of calmness and hospitality, while the grays and deeper blues introduce contrast and structure.
+
+The color palette was created using the [Coolors](https://coolors.co/) website.
 
 
 ### Typography
