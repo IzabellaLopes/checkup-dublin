@@ -633,6 +633,10 @@ td {
         height: 100px;
         font-size: 50%;
     }
+
+    #photos-gallery {
+        column-count: 1;
+    }
 }
 
 /* For small screen sizes from 410px wide and down */
