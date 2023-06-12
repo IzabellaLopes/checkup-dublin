@@ -34,7 +34,7 @@ Google Fonts was used for the following fonts:
 
 ### Imagery
 
-The website features a captivating array of imagery sourced from iStock, Pexels, Lexica, and Unsplash, offering a diverse selection of high-quality visuals. To honor the sources of these remarkable images, proper credits have been given in the dedicated [credits](#Credits) section.
+The website features a captivating array of imagery sourced from iStock, Lexica, and Unsplash, offering a diverse selection of high-quality visuals. To honor the sources of these remarkable images, proper credits have been given in the dedicated [credits](#Credits) section.
 
 
 ## Features 
@@ -195,20 +195,42 @@ You can break the credits section up into Content and Media, depending on what y
 
  Home page:
  
- Background
- * [hero-image](https://www.istockphoto.com/photo/close-up-of-a-stethoscope-and-digital-tablet-with-virtual-electronic-medical-record-gm1369987284-439639988?phrase=medicine+background) - Credit to everything possible, iStock.
+- Background
+    - [hero-image](https://www.istockphoto.com/photo/close-up-of-a-stethoscope-and-digital-tablet-with-virtual-electronic-medical-record-gm1369987284-439639988?phrase=medicine+background) - Credit to everything possible, iStock.
  
- Our services
- * [complete checkup](https://www.istockphoto.com/photo/doctor-writing-a-medical-prescription-gm1319031310-405998329?phrase=physical+examination) - Credit to demaerre, iStock.
+- Our services
+    - [complete checkup](https://www.istockphoto.com/photo/doctor-writing-a-medical-prescription-gm1319031310-405998329?phrase=physical+examination) - Credit to demaerre, iStock. 
+    - [clinical investigations](https://www.istockphoto.com/photo/professional-doctor-preparing-patient-for-procedure-gm627290560-111071371?phrase=Clinical+investigations) - Credit to YakobchukOlena, iStock
+    - [exams](https://www.istockphoto.com/photo/detail-of-computer-ultrasound-with-x-ray-in-modern-medicine-gm941578476-257350996?phrase=ultrasound+device) - Credit to Vladimir_Timofeev, iStock.
  
- 
- * [clinical investigations](https://www.istockphoto.com/photo/professional-doctor-preparing-patient-for-procedure-gm627290560-111071371?phrase=Clinical+investigations) - Credit to YakobchukOlena, iStock.
+- Testimonials
+    - [testimonial-1](https://lexica.art/prompt/a2c059db-d517-4f22-ae91-cbaa919a63ee) - Credit to Lexica.
+    - [testimonial-2](https://lexica.art/prompt/9edb0923-b474-4c74-b11b-28d9f889714d) - Credit to Lexica.
+    - [testimonial-3](https://lexica.art/prompt/cc910fc1-bde8-4df2-98e8-587ccd41bb56) - Credit to Lexica.
+    - [testimonial-4](https://lexica.art/prompt/0175a75b-41b8-4024-89af-492bde6523bf) - Credit to Lexica. 
 
+About CheckUp Dublin Center page:
 
-* 
+- Welcome
+    - [welcome](https://www.istockphoto.com/photo/reception-and-armchairs-in-hospital-hall-gm1223999858-359731228?phrase=clinic%2Breception%2Bdesk) - Credit to ismagilov, iStock.
 
+- Our Team
+    - [our-team-1](https://lexica.art/prompt/7c2c4250-0675-4b96-b507-47a96905968e) - Credit to Lexica.
+    - [our-team-2](https://lexica.art/prompt/7bd0447d-9020-4137-94a9-9489eb117e96) - Credit to Lexica.
+    - [our-team-3](https://lexica.art/prompt/ed4d8873-e9a7-49e0-a411-1fd7d976040d) - Credit to Lexica.
+    - [our-team-4](https://lexica.art/prompt/c01b134c-472b-4425-a353-d8da33843866) - Credit to Lexica.
 
+Services page:
 
+- Gallery
+    - [gallery-1](https://lexica.art/prompt/0decd297-34db-4af5-99e9-441292db1824) - Credit to Lexica.
+    - [gallery-2](https://www.istockphoto.com/photo/nurse-and-doctor-team-meeting-collaboration-gm1272197465-374537275) - Credit to AndreyPopov, iStock.
+    - [gallery-3](https://unsplash.com/pt-br/fotografias/Y-3Dt0us7e0) - Credit to Patty Brito, Unsplash.
+    - [gallery-4](https://www.istockphoto.com/photo/elderly-patient-with-bp-heart-rate-digital-pulse-check-equipment-for-medical-gm1177942982-329043762) - Credit to Chinnapong, iStock.
+    - [gallery-5](https://www.istockphoto.com/photo/making-ultrasound-check-up-gm895702826-247446807) - Credit to shironosov, iStock.
+    - [gallery-6](https://www.istockphoto.com/photo/bone-density-hip-and-lumbarspine-result-osteoporosis-gm1165489459-320715536) - Credit to Tonpor Kasa, iStock.
+    - [gallery-7](https://www.istockphoto.com/photo/young-caucasian-man-standing-against-wall-while-doctor-using-x-ray-machine-scan-him-gm1266813630-371478609?phrase=chest+xray) - Credit to Inside Creative House, iStock.
+    - [gallery-8](https://unsplash.com/pt-br/fotografias/QsBfOwMoPNY) - Credit to Towfiqu barbhuiya, Unsplash. 
 
 
 ## Other General Project Advice
