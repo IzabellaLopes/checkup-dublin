@@ -332,9 +332,11 @@ footer {
     object-fit: cover;
 }
 
-#photos-our-team h3 {
+.name-team {
     font-size: 28px;
+    font-weight: bold;
     margin-top: 20px;
+    letter-spacing: 3px;
 }
 
 /* our services */
