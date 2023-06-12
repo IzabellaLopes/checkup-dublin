@@ -333,15 +333,14 @@ footer {
 /* our services */
 
 #our-services {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     margin-bottom: 20px;
 }
 
 #complete-checkup,
 #clinical-investigations,
 #exams {
-    flex-basis: 30%;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
@@ -579,6 +578,10 @@ td {
     #photos-gallery>img {
         width: 80%;
         margin: 0 auto;
+    }
+
+    #our-services {
+        grid-template-columns: 1fr;
     }
 }
 
