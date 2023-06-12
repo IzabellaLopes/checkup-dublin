@@ -65,7 +65,7 @@ Every page on the website has:
 
 - __The landing page image__
 
-  - The landing page features a captivating background image with overlaid text showcasing a detailed view of a stethoscope alongside a digital tablet exhibiting a virtual electronic medical record interface. This imagery signifies the harmonious fusion of technology and healthcare, underscoring our dedication to providing state-of-the-art medical services to our valued patients. By using the stethoscope as a symbol of traditional medical expertise and the digital tablet as a depiction of our modern tools and systems, we aim to blend the most exceptional elements from both domains, providing a comprehensive patient experience that addresses their overall well-being.
+  - The landing page features a captivating background image with overlaid text showcasing a detailed view of a stethoscope alongside a digital tablet exhibiting a virtual electronic medical record interface. By using the stethoscope as a symbol of traditional medical expertise and the digital tablet as a depiction of our modern tools and systems, we aim to blend the most exceptional elements from both domains, providing a comprehensive patient experience that addresses their overall well-being.
   - This section additionally captivates the user's attention by introducing the CheckUp Dublin Center with an eye catching animation, designed to immediately seize their interest.
 
 ![Landing page image](documentation/screens/landing-page.png)
@@ -156,18 +156,19 @@ Every page on the website has:
 
 ### Features Left to Implement
 
-- Another feature idea
+- Health Blog: Incorporate a health blog on the website to provide valuable information, tips, and articles on various health topics, promoting education and engagement with visitors.
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+Testing was conducted consistently throughout the website development process to ensure its functionality. Chrome developer tools were utilized to identify and troubleshoot any issues that arose during the build.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+During the mid-project meeting with my mentor, we discussed and addressed specific issues that were identified:
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
+- The responsive design of the landing page image for small screen sizes (650px wide and below) had an issue where the right border of the cover text would disappear from the screen. However, this problem was successfully resolved after my mentor suggested including a percentage-based property (1%) for the class "cover-text" and it worked perfectly.
+- The testimonials section had an issue with its responsive design, where the image and text were overlapping in medium-sized screens. Initially, I had configured the code using the "float: left" property. However, my mentor suggested changing the CSS approach by using the "display: grid" property. Initially, the grid had four columns, but for medium-sized screens, it was changed to two columns, and for small-sized screens, it was changed to one column. This adjustment resolved the issue, and the responsive design now functions perfectly.
+- The responsive design of the welcome section needed improvement as the welcome image was becoming smaller, and the text and image were positioned side by side in small screen sizes. To address this issue, I made the following changes: Replaced the initial code, which used "display: flex," with "display: grid" to achieve better results. Then, I modified the code by setting "grid-template-columns: 1fr" for screen sizes ranging from 900px wide and below. These adjustments were successful in achieving the desired outcome, improving the responsive design of the welcome section.
+- A similar issue was promptly resolved in the "Our Team" images by changing the initial code from "display: flex" to "display: grid." This simple modification allowed me to configure the images initially with 4 columns and adjust them to 2 columns for larger to medium screen sizes in the responsive design. Additionally, for small screen sizes, the images were adjusted to display in a single column. This modification successfully addressed the issue and improved the responsive design of the "Our Team" section.
+- To enhance the responsiveness of the "Our Services" section on the services page, I made the following changes: Instead of using "display: flex" with a flex-basis of 30% for the IDs "complete-checkup," "clinical-investigations," and "exams," I switched to "display: grid" with three template columns initially set as "1fr 1fr 1fr." For medium-sized screens, I modified it to have a single column with a width of "1fr." By implementing these adjustments, the "Our Services" section now adapts better to different screen sizes, improving its responsiveness.
 
 ### Validator Testing 
 
