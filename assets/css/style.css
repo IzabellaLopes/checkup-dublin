@@ -613,6 +613,10 @@ td {
     #photos-gallery {
         column-count: 2;
     }
+
+    .thank404 {
+        font-size: 80%;
+    }
 }
 
 /* For small screen sizes from 650px wide and down */
@@ -655,5 +659,9 @@ td {
 
     #cover-text {
         width: 300px;
+    }
+
+    .thank404 {
+        font-size: 65%;
     }
 }
