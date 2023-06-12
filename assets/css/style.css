@@ -274,13 +274,9 @@ footer {
 /* welcome section */
 
 #welcome {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
-    justify-content: space-between;
-}
-
-#welcome>div {
-    width: 50%;
 }
 
 #welcome img {
@@ -612,6 +608,10 @@ td {
 
     .img-testimonials {
         padding-top: 20px;
+    }
+
+    #welcome {
+        grid-template-columns: 1fr;
     }
 }
 
