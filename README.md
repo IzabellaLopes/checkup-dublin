@@ -34,6 +34,8 @@ Google Fonts was used for the following fonts:
 
 ### Imagery
 
+The website features a captivating array of imagery sourced from iStock, Pexels, Lexica, and Unsplash, offering a diverse selection of high-quality visuals. To honor the sources of these remarkable images, proper credits have been given in the dedicated [credits](#Credits) section.
+
 
 ## Features 
 
@@ -191,11 +193,23 @@ You can break the credits section up into Content and Media, depending on what y
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+ Home page:
+ 
+ Background
+ * [hero-image](https://www.istockphoto.com/photo/close-up-of-a-stethoscope-and-digital-tablet-with-virtual-electronic-medical-record-gm1369987284-439639988?phrase=medicine+background) - Credit to everything possible, iStock.
+ 
+ Our services
+ * [complete checkup](https://www.istockphoto.com/photo/doctor-writing-a-medical-prescription-gm1319031310-405998329?phrase=physical+examination) - Credit to demaerre, iStock.
+ 
+ 
+ * [clinical investigations](https://www.istockphoto.com/photo/professional-doctor-preparing-patient-for-procedure-gm627290560-111071371?phrase=Clinical+investigations) - Credit to YakobchukOlena, iStock.
 
 
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
+* 
+
+
+
+
 
 ## Other General Project Advice
 
