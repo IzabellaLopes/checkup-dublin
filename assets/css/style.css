@@ -461,28 +461,21 @@ textarea {
 }
 
 .contact-boxes-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding: 20px 0;
-}
-
-.contact-box-left {
-    flex-basis: 30%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px 10px;
 }
 
 .contact-box-center {
-    flex-basis: 30%;
     text-align: center;
-    height: 113.6px;
 }
 
 .contact-box-right {
-    flex-basis: 30%;
+    text-align: right;
+}
+
+.contact-box-right>div {
     line-height: 1.5;
-    height: 113.6px;
 }
 
 .contact-box-left h3 {
@@ -600,6 +593,18 @@ td {
 
     #question {
         padding-bottom: 20px;
+    }
+
+    .contact-boxes-container {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-boxes-container div {
+        padding-bottom: 20px;
+    }
+
+    .contact-box-right>div {
+        line-height: 0.2;
     }
 }
 
