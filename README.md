@@ -18,7 +18,6 @@ The gentle blues establish an atmosphere of calmness and hospitality, while the 
 
 The color palette was created using the [Coolors](https://coolors.co/) website.
 
-
 ### Typography
 
 Google Fonts was used for the following fonts: 
@@ -31,11 +30,9 @@ Google Fonts was used for the following fonts:
   -  Sans-serif font
   -  Clean and elegant design, that provides pleasant reading experience
 
-
 ### Imagery
 
 The website features a captivating array of imagery sourced from iStock, Lexica, and Unsplash, offering a diverse selection of high-quality visuals. To honor the sources of these remarkable images, proper credits have been given in the dedicated [credits](#Credits) section.
-
 
 ## Features 
 
@@ -52,14 +49,12 @@ Every page on the website has:
 
 ![Navigation bar](documentation/screens/navigation-bar.png)
 
-
 - __Footer__ 
 
   - The footer section includes links to the relevant social media sites for CheckUp Dublin Center. The links will open in a new tab, providing a seamless navigation experience for the user. 
   - Icons were used to maintain a clean footer and because they are universally recognizable.
 
 ![Footer](documentation/screens/footer.png)
-
 
 #### Home page
 
@@ -106,7 +101,6 @@ Every page on the website has:
 
 ![Our team](documentation/screens/our-team.png)
 
-
 #### Services
 
 - __Services section__
@@ -132,7 +126,6 @@ Every page on the website has:
 
 ![Form](documentation/screens/form.png)
 
-
 - __Contact section__
 
   -  The aim is to provide visitors with essential information to connect with CheckUp Dublin Center. It includes details such as the center's opening times on weekdays (Monday to Friday) and Saturdays, a fictitious address and contact details like the phone number and email address. 
@@ -145,7 +138,6 @@ Every page on the website has:
 
 ![Map](documentation/screens/map.png)
 
-
 #### Thank you page
 
 - __Thank you section__
@@ -157,6 +149,49 @@ Every page on the website has:
 ### Features Left to Implement
 
 - Health Blog: Incorporate a health blog on the website to provide valuable information, tips, and articles on various health topics, promoting education and engagement with visitors.
+
+### Accessibility
+
+I have been attentive to make the website as accessible-friendly as possible through the following measures:
+
+* Utilizing semantic HTML to provide meaningful structure and enhance accessibility.
+* Incorporating descriptive alt attributes for images on the site to provide alternative text for screen readers.
+* Ensuring an adequate color contrast across the site to improve readability for users with visual impairments.
+* Making menus accessible by indicating the current page as "current" for screen readers, aiding navigation and orientation.
+
+By implementing these considerations, I have strived to enhance the overall accessibility of the website.
+
+- - -
+
+## Technologies Used
+
+### Languages Used
+
+This website was created using HTML and CSS.
+
+### Frameworks, Libraries & Programs Used
+
+Visual Studio Code - Initially, I began drafting my project using VS Code, version 1.79.0, as I encountered technical issues with Codeanywhere, which had an initialization bug. However, once the bug in Codeanywhere was resolved, I initiated a new project and proceeded to rewrite all of my project code.
+
+Codeanywhere - I used Codeanywhere as my official Code Editor for the project. On June 10th 2023, I encountered an issue where I had exceeded my usage hours and my subscription had expired. To resolve this, I reached out to the tutor support, and Sarah kindly provided me with an invitation link. Fortunately, since I had already pushed my commits, the transition to Code Institute's team went smoothly.
+
+Github - To save and store the files for the website.
+
+Google Fonts - To import the fonts used on the website.
+
+Font Awesome - For the iconography on the website.
+
+Google Maps- For the virtual map on the Contact us page.
+
+Google Dev Tools - To troubleshoot and test features, resolve issues related to responsiveness and styling.
+
+[Tiny PNG](https://tinypng.com/) To compress images.
+
+[Safeimagekit](https://safeimagekit.com/) To resize images and convert them to the webp format.
+
+[Am I Responsive?](http://ami.responsivedesign.is/) To display the website image across various devices.
+
+- - -
 
 ## Testing 
 
