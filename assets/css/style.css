@@ -535,10 +535,12 @@ td {
 /* Thank you and 404 */
 .thank404 {
     background-color: #E4EDF6;
+    height: 35vh;
+    padding: 2rem;
 }
 
-.footer-thank404 {
-    padding-top: 600px;
+#pt-3 {
+    padding-top: 3%;
 }
 
 /* Media queries */
