@@ -394,19 +394,13 @@ footer {
 
 /* form */
 
-.form-section {
-    position: relative;
-    background-size: cover;
-    background-position: center;
-    width: 99%;
-    height: 600px;
+.contact-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
 }
 
 #question {
-    position: absolute;
-    left: auto;
-    width: 50%;
-    height: 600px;
     text-align: center;
     font-size: 120%;
 }
@@ -416,13 +410,10 @@ footer {
 }
 
 #fill-form {
-    position: absolute;
-    left: 50%;
-    width: 50%;
-    height: 600px;
     background-color: #E4EDF6;
     border-radius: 5px;
     border: 1px solid aliceblue;
+    padding-right: 2%;
 }
 
 #text-fill-form {
@@ -601,6 +592,14 @@ td {
 
     #photos-our-team {
         grid-template-columns: 1fr;
+    }
+
+    .contact-form {
+        grid-template-columns: 1fr;
+    }
+
+    #question {
+        padding-bottom: 20px;
     }
 }
 
