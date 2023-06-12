@@ -297,9 +297,8 @@ footer {
 }
 
 #photos-our-team {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 #photos-our-team>div {
@@ -537,34 +536,17 @@ td {
 
 /* Media queries */
 
+/* For larger to medium screen sizes from 1330px wide and down */
+@media screen and (max-width: 1330px) {
+    #photos-our-team {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
 /* For larger to medium screen sizes from 1200px wide and down */
 @media screen and (max-width: 1200px) {
     #menu {
         clear: both
-    }
-
-    #photos-our-team {
-        flex-wrap: wrap;
-    }
-
-    #photos-our-team>div {
-        flex-basis: 50%;
-        margin: 20px 0;
-    }
-
-    .photo-team {
-        width: 250px;
-        height: 250px;
-    }
-
-    .photo-team img {
-        width: 220px;
-        height: 220px;
-    }
-
-    #photos-our-team h3,
-    #photos-our-team p {
-        text-align: left;
     }
 }
 
@@ -611,6 +593,10 @@ td {
     }
 
     #welcome {
+        grid-template-columns: 1fr;
+    }
+
+    #photos-our-team {
         grid-template-columns: 1fr;
     }
 }
