@@ -50,11 +50,15 @@ Every page on the website has:
   - At the top of the website, there is a fully responsive navigation bar that is featured on all four pages. It includes links to the Logo, Home page, About CheckUp Dublin Center, Services, and Contact us page. It remains consistent across all pages, making navigation effortless.
   - This section enables users to navigate easily between pages on all devices without the need to rely on the 'back' button to go to the previous page. 
 
+![Navigation bar](documentation/screens/navigation-bar.png)
+
 
 - __Footer__ 
 
   - The footer section includes links to the relevant social media sites for CheckUp Dublin Center. The links will open in a new tab, providing a seamless navigation experience for the user. 
   - Icons were used to maintain a clean footer and because they are universally recognizable.
+
+![Footer](documentation/screens/footer.png)
 
 
 #### Home page
@@ -64,24 +68,28 @@ Every page on the website has:
   - The landing page features a captivating background image with overlaid text showcasing a detailed view of a stethoscope alongside a digital tablet exhibiting a virtual electronic medical record interface. This imagery signifies the harmonious fusion of technology and healthcare, underscoring our dedication to providing state-of-the-art medical services to our valued patients. By using the stethoscope as a symbol of traditional medical expertise and the digital tablet as a depiction of our modern tools and systems, we aim to blend the most exceptional elements from both domains, providing a comprehensive patient experience that addresses their overall well-being.
   - This section additionally captivates the user's attention by introducing the CheckUp Dublin Center with an eye catching animation, designed to immediately seize their interest.
 
+![Landing page image](documentation/screens/landing-page.png)
 
 - __About us section__
 
   - The About us section will provide a concise overview of the center's services, expertise, and commitment to delivering exceptional healthcare.  It aims to inform visitors about the center's mission, values, and the cutting-edge medical services it offers. 
   - Additionally, at the end of the section, there is a button labeled "Learn More" that directs users to the dedicated page providing detailed information About CheckUp Dublin Center.
 
+![About us](documentation/screens/about-us.png)
 
 - __Our Services section__
 
   -  This section aims to provide visitors with a succinct overview of the comprehensive range of services available at CheckUp Dublin Center. It highlights key offerings such as full physical examinations for preventive care, clinical investigations, and a variety of exams including ultrasound scans, DXA scans, chest X-rays, resting electrocardiograms, and ergometric tests. 
   - Additionally, at the end of the section, there is a button labeled "Check our services" that takes users directly to the Services page.
 
+![Our Services](documentation/screens/our-services.png)
 
 - __Testimonials section__
 
   -  The purpose of the "Testimonials" section is to showcase positive feedback and testimonials about the center's services. While the patients and experiences may be fictional, the testimonials aim to create a sense of trust and credibility by highlighting the positive experiences of supposed patients.
   -  By including these testimonials, the section aims to build confidence and encourage potential patients to choose CheckUp Dublin Center for their healthcare needs.
 
+![Testimonials](documentation/screens/testimonials.png)
 
 #### About CheckUp Dublin Center page
 
@@ -89,11 +97,14 @@ Every page on the website has:
 
   -  The welcome section is to invite visitors to enter CheckUp Dublin Center and embark on a journey towards improved vitality and wellness. The section highlights the proficiency of the center's team, who are equipped with modern equipment and possess extensive experience to provide exceptional care. 
 
+![Welcome](documentation/screens/welcome.png)
 
 - __Our Team section__
 
   -  The "Our Team" section aims to highlight the expertise and dedication of the healthcare professionals and reassure patients that they will receive exceptional care from a well-rounded and skilled team.
   -  The inclusion of four photos, representing a fictitious medical doctor (GP), a medical doctor (radiologist), a medical manager, and a nurse, adds a visual element to help visitors connect with the team members and further instill trust in their abilities to deliver top-notch care. 
+
+![Our team](documentation/screens/our-team.png)
 
 
 #### Services
@@ -104,11 +115,13 @@ Every page on the website has:
   -  The section highlights a wide range of complete checkups, covering areas such as cardiovascular, respiratory, abdominal, nervous system, vision, and hearing. It also includes specialized services like gynecology and mastology for females and prostate examinations for males. Additionally, lifestyle and nutritional assessments, postural assessments, clinical investigations (including blood tests and urinalysis), and various exams such as ultrasound scans, DXA scans, chest X-rays, resting electrocardiograms, and ergometric tests are offered.
   -  Additionally, at the end of the section, there is a button labeled "Schedule your Checkup now" that takes users directly to the Contact us page.
 
+![Services](documentation/screens/services.png)
 
 - __Gallery section__
 
   -  The purpose of the gallery featuring eight photos on the CheckUp Dublin Center website is to visually showcase different aspects of the center, providing visitors with a glimpse into the facilities, services, and patient experience. The selected photos aim to create a positive impression, highlighting the modern and welcoming environment, state-of-the-art equipment, friendly staff, and patient-centered care.
   
+![Gallery](documentation/screens/gallery.png)
 
 #### Contact us page
 
@@ -117,15 +130,20 @@ Every page on the website has:
   -  The purpose of the form section is to provide visitors with a convenient and accessible means of reaching out to CheckUp Dublin Center for any questions or inquiries they may have.
   -  The page encourages visitors to utilize the provided contact form, which typically includes fields for entering their first name, last name, email address, phone number, and a message. 
 
+![Form](documentation/screens/form.png)
+
 
 - __Contact section__
 
   -  The aim is to provide visitors with essential information to connect with CheckUp Dublin Center. It includes details such as the center's opening times on weekdays (Monday to Friday) and Saturdays, a fictitious address and contact details like the phone number and email address. 
  
+![Contact](documentation/screens/contact.png)
 
 - __Map section__
 
   -  The map serves the purpose of enhancing accessibility by assisting visitors in virtually locating the CheckUp Dublin Center.
+
+![Map](documentation/screens/map.png)
 
 
 #### Thank you page
@@ -134,6 +152,7 @@ Every page on the website has:
 
   -  A thank you page serves as a confirmation and appreciation message to users who have submitted a form. It acknowledges their action and expresses gratitude for their participation. 
  
+![Thank you](documentation/screens/thankyou.png)
 
 ### Features Left to Implement
 
