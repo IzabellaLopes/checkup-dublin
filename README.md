@@ -4,7 +4,7 @@ Welcome to the CheckUp Dublin Center repository! This website serves as an immer
 
 The goal of the CheckUp Dublin Center website is to provide a virtual clinic experience that offers a thorough health screening checkup, with a focus on preventive medicine. This checkup includes a full physical examination, various medical tests, and advanced exams, all conveniently available at a single location. Our primary aim is to prioritize the well-being and health of our patients by providing a comprehensive and convenient healthcare solution. 
 
-![Responsice Mockup]()
+![CheckUp Dublin Center Website shown on a range of devices](documentation/responsive.png)
 
 [View CheckUp Dublin Center Website](https://izabellalopes.github.io/checkup-dublin/)
 
@@ -258,24 +258,39 @@ Other issues that has been resolved:
 
 ### Validator Testing 
 
-- HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+- HTML: No errors were returned when passing through the official W3C validator.
+  * [Index Page HTML](documentation/testing/w3c/w3c-index.png)
+  * [About CheckUp Dublin Center Page HTML](documentation/testing/w3c/w3c-about.png)
+  * [Services Page HTML](documentation/testing/w3c/w3c-services.png)
+  * [Contact us Page HTML](documentation/testing/w3c/w3c-contact.png)
+  * [Thank you Page HTML](documentation/testing/w3c/w3c-thankyou.png)
+ 
+- CSS: No errors were found when passing through the official Jigsaw validator.
+   * [style.css](documentation/testing/w3c/w3c-css.png)
 
 ### Lighthouse
 
 I utilized Lighthouse, a tool available in the Chrome Developer Tools, to assess the performance, accessibility, best practices, and SEO aspects of the website.
 
 #### Home page
+- Desktop: [Home page - desktop](documentation/testing/lighthouse/home-desktop.png)
+- Mobile: [Home page - mobile](documentation/testing/lighthouse/home-mobile.png)
 
 #### About Checkup Dublin Center page
+- Desktop: [About CheckUp Dublin Center page - desktop](documentation/testing/lighthouse/about-desktop.png)
+- Mobile: [About CheckUp Dublin Center page - mobile](documentation/testing/lighthouse/about-mobile.png)
 
 #### Services page
+- Desktop: [Services page - desktop](documentation/testing/lighthouse/services-desktop.png)
+- Mobile: [Services page - mobile](documentation/testing/lighthouse/services-mobile.png)
 
 #### Contact us page
+- Desktop: [Contact us page - desktop](documentation/testing/lighthouse/contact-desktop.png)
+- Mobile: [Contact us page - mobile](documentation/testing/lighthouse/contact-mobile.png)
 
 #### Thank you page
+- Desktop: [Thank you page - desktop](documentation/testing/lighthouse/thankyou-desktop.png)
+- Mobile: [Thank you page - mobile](documentation/testing/lighthouse/thankyou-mobile.png)
 
 ### Full Testing
 
