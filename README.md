@@ -251,9 +251,10 @@ During the mid-project meeting with my mentor, we discussed and addressed specif
 - A similar issue was promptly resolved in the "Our Team" images by changing the initial code from "display: flex" to "display: grid." This simple modification allowed me to configure the images initially with 4 columns and adjust them to 2 columns for larger to medium screen sizes in the responsive design. Additionally, for small screen sizes, the images were adjusted to display in a single column. This modification successfully addressed the issue and improved the responsive design of the "Our Team" section.
 - To enhance the responsiveness of the "Our Services" section on the services page, I made the following changes: Instead of using "display: flex" with a flex-basis of 30% for the IDs "complete-checkup," "clinical-investigations," and "exams," I switched to "display: grid" with three template columns initially set as "1fr 1fr 1fr." For medium-sized screens, I modified it to have a single column with a width of "1fr." By implementing these adjustments, the "Our Services" section now adapts better to different screen sizes, improving its responsiveness.
 
-Another issue that has been resolved:
+Other issues that has been resolved:
 
 - Lighthouse identified that the link labeled "Learn More" in the "About Us" section of the homepage did not have descriptive text. To address this issue, I replaced the generic phrase "Learn More" with the specific description "Know more about us." This modification enhances the SEO from a score of 90 to 100.
+- Lighthouse verified that the iframe element within the map section does not have a title. To address this issue, I included a descriptive title for the frame to describe the map.
 
 ### Validator Testing 
 
