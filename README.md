@@ -6,6 +6,37 @@ The goal of the CheckUp Dublin Center website is to provide a virtual clinic exp
 
 ![Responsice Mockup]()
 
+[View CheckUp Dublin Center Website](https://izabellalopes.github.io/checkup-dublin/)
+
+## CONTENTS
+
+* [Design](#Design)
+  * [Color Scheme](#Color-Scheme)
+  * [Typography](#Typography)
+  * [Imagery](#Imagery)
+  * [Features](#Features)
+  * [Features Left to Implement](#Features-Left-to-Implement)
+  * [Accessibility](#Accessibility)
+
+* [Technologies Used](#Technologies-Used)
+  * [Languages Used](#Languages-Used)
+  * [Frameworks, Libraries & Programs Used](#Frameworks-Libraries--Programs-Used)
+
+* [Deployment](#Deployment)
+
+* [Testing and Solved Bugs](#Testing-and-solved-bugs)
+  * [Validator Testing](#Validator-Testing)
+  * [Lighthouse](#Lighthouse)
+  * [Full Testing](#Full-Testing)
+  
+* [Credits](#Credits)
+  * [Code Used](#Code-Used)
+  * [Content](#Content)
+  * [Media](#Media)
+  * [Acknowledgments](#Acknowledgments)
+
+- - -
+
 ## Design
 
 ### Color Scheme
@@ -17,7 +48,6 @@ The gentle blues establish an atmosphere of calmness and hospitality, while the 
 ![CheckUp Dublin Center Website Color Palette](documentation/colorpalette.png)
 
 The color palette was created using the [Coolors](https://coolors.co/) website.
-
 
 ### Typography
 
@@ -31,17 +61,15 @@ Google Fonts was used for the following fonts:
   -  Sans-serif font
   -  Clean and elegant design, that provides pleasant reading experience
 
-
 ### Imagery
 
 The website features a captivating array of imagery sourced from iStock, Lexica, and Unsplash, offering a diverse selection of high-quality visuals. To honor the sources of these remarkable images, proper credits have been given in the dedicated [credits](#Credits) section.
 
-
-## Features 
+### Features 
 
 The website consists of five pages, with four of them accessible through the navigation menu: the home page, the about CheckUp Dublin Center page, the services page, and the contact us page. The fifth page is a thank you page that appears after a user submits the form on the contact us page.
 
-### Existing Features
+#### Existing Features
 
 Every page on the website has:
 
@@ -52,7 +80,6 @@ Every page on the website has:
 
 ![Navigation bar](documentation/screens/navigation-bar.png)
 
-
 - __Footer__ 
 
   - The footer section includes links to the relevant social media sites for CheckUp Dublin Center. The links will open in a new tab, providing a seamless navigation experience for the user. 
@@ -60,12 +87,11 @@ Every page on the website has:
 
 ![Footer](documentation/screens/footer.png)
 
-
 #### Home page
 
 - __The landing page image__
 
-  - The landing page features a captivating background image with overlaid text showcasing a detailed view of a stethoscope alongside a digital tablet exhibiting a virtual electronic medical record interface. This imagery signifies the harmonious fusion of technology and healthcare, underscoring our dedication to providing state-of-the-art medical services to our valued patients. By using the stethoscope as a symbol of traditional medical expertise and the digital tablet as a depiction of our modern tools and systems, we aim to blend the most exceptional elements from both domains, providing a comprehensive patient experience that addresses their overall well-being.
+  - The landing page features a captivating background image with overlaid text showcasing a detailed view of a stethoscope alongside a digital tablet exhibiting a virtual electronic medical record interface. By using the stethoscope as a symbol of traditional medical expertise and the digital tablet as a depiction of our modern tools and systems, we aim to blend the most exceptional elements from both domains, providing a comprehensive patient experience that addresses their overall well-being.
   - This section additionally captivates the user's attention by introducing the CheckUp Dublin Center with an eye catching animation, designed to immediately seize their interest.
 
 ![Landing page image](documentation/screens/landing-page.png)
@@ -106,7 +132,6 @@ Every page on the website has:
 
 ![Our team](documentation/screens/our-team.png)
 
-
 #### Services
 
 - __Services section__
@@ -132,7 +157,6 @@ Every page on the website has:
 
 ![Form](documentation/screens/form.png)
 
-
 - __Contact section__
 
   -  The aim is to provide visitors with essential information to connect with CheckUp Dublin Center. It includes details such as the center's opening times on weekdays (Monday to Friday) and Saturdays, a fictitious address and contact details like the phone number and email address. 
@@ -145,7 +169,6 @@ Every page on the website has:
 
 ![Map](documentation/screens/map.png)
 
-
 #### Thank you page
 
 - __Thank you section__
@@ -156,18 +179,77 @@ Every page on the website has:
 
 ### Features Left to Implement
 
-- Another feature idea
+- Create a Hamburger menu to improve readability on small screen devices.
+- Health Blog: Incorporate a health blog on the website to provide valuable information, tips, and articles on various health topics, promoting education and engagement with visitors.
 
-## Testing 
+### Accessibility
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+I have been attentive to make the website as accessible-friendly as possible through the following measures:
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+* Utilizing semantic HTML to provide meaningful structure and enhance accessibility.
+* Incorporating descriptive alt attributes for images on the site to provide alternative text for screen readers.
+* Ensuring an adequate color contrast across the site to improve readability for users with visual impairments. I employed the contrast checker provided by [WebAIM](https://webaim.org/resources/contrastchecker/) to validate the contrast ratio between the selected foreground color and background color.
+* Making menus accessible by indicating the current page as "current" for screen readers, aiding navigation and orientation.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+By implementing these considerations, I have strived to enhance the overall accessibility of the website.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+- - -
 
+## Technologies Used
+
+### Languages Used
+
+This website was created using HTML and CSS.
+
+### Frameworks, Libraries & Programs Used
+
+Visual Studio Code - Initially, I began drafting my project using VS Code, version 1.79.0, as I encountered technical issues with Codeanywhere, which had an initialization bug. However, once the bug in Codeanywhere was resolved, I initiated a new project and proceeded to rewrite all of my project code.
+
+Codeanywhere - I used Codeanywhere as my official Code Editor for the project. On June 10th 2023, I encountered an issue where I had exceeded my usage hours and my subscription had expired. To resolve this, I reached out to the tutor support, and Sarah kindly provided me with an invitation link. Fortunately, since I had already pushed my commits, the transition to Code Institute's team went smoothly.
+
+Github - To save and store the files for the website.
+
+Google Fonts - To import the fonts used on the website.
+
+Font Awesome - For the iconography on the website.
+
+Google Maps- For the virtual map on the Contact us page.
+
+Google Dev Tools - To troubleshoot and test features, resolve issues related to responsiveness and styling.
+
+[Tiny PNG](https://tinypng.com/) To compress images.
+
+[Safeimagekit](https://safeimagekit.com/) To resize images and convert them to the webp format.
+
+[Am I Responsive?](http://ami.responsivedesign.is/) To display the website image across various devices.
+
+- - -
+
+## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+   - Sign in to your GitHub account.
+   - Locate the repository named "checkup-dublin" for this project.
+   - Click on the "Settings" link.
+   - In the left-hand side navigation bar, click on "Pages".
+   - In the "Source" section, choose "main" from the branch selection dropdown menu. Select "Root" from the folder selection dropdown menu.
+   - Click on "Save." Your GitHub Pages site is now deployed and can be accessed at the displayed URL.
+
+The live link can be found here - [CheckUp Dublin Center](https://izabellalopes.github.io/checkup-dublin/)  
+
+- - -
+
+## Testing and Solved Bugs
+
+Testing was conducted consistently throughout the website development process to ensure its functionality. Chrome developer tools were utilized to identify and troubleshoot any issues that arose during the build.
+
+During the mid-project meeting with my mentor, we discussed and addressed specific issues that were identified:
+
+- The responsive design of the landing page image for small screen sizes (650px wide and below) had an issue where the right border of the cover text would disappear from the screen. However, this problem was successfully resolved after my mentor suggested including a percentage-based property (1%) for the class "cover-text" and it worked perfectly.
+- The testimonials section had an issue with its responsive design, where the image and text were overlapping in medium-sized screens. Initially, I had configured the code using the "float: left" property. However, my mentor suggested changing the CSS approach by using the "display: grid" property. Initially, the grid had four columns, but for medium-sized screens, it was changed to two columns, and for small-sized screens, it was changed to one column. This adjustment resolved the issue, and the responsive design now functions perfectly.
+- The responsive design of the welcome section needed improvement as the welcome image was becoming smaller, and the text and image were positioned side by side in small screen sizes. To address this issue, I made the following changes: Replaced the initial code, which used "display: flex," with "display: grid" to achieve better results. Then, I modified the code by setting "grid-template-columns: 1fr" for screen sizes ranging from 900px wide and below. These adjustments were successful in achieving the desired outcome, improving the responsive design of the welcome section.
+- A similar issue was promptly resolved in the "Our Team" images by changing the initial code from "display: flex" to "display: grid." This simple modification allowed me to configure the images initially with 4 columns and adjust them to 2 columns for larger to medium screen sizes in the responsive design. Additionally, for small screen sizes, the images were adjusted to display in a single column. This modification successfully addressed the issue and improved the responsive design of the "Our Team" section.
+- To enhance the responsiveness of the "Our Services" section on the services page, I made the following changes: Instead of using "display: flex" with a flex-basis of 30% for the IDs "complete-checkup," "clinical-investigations," and "exams," I switched to "display: grid" with three template columns initially set as "1fr 1fr 1fr." For medium-sized screens, I modified it to have a single column with a width of "1fr." By implementing these adjustments, the "Our Services" section now adapts better to different screen sizes, improving its responsiveness.
 
 ### Validator Testing 
 
@@ -176,33 +258,52 @@ If this section grows too long, you may want to split it off into a separate fil
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
-### Unfixed Bugs
+### Lighthouse
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+I utilized Lighthouse, a tool available in the Chrome Developer Tools, to assess the performance, accessibility, best practices, and SEO aspects of the website.
 
-## Deployment
+#### Home page
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+#### About Checkup Dublin Center page
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+#### Services page
 
-The live link can be found here -  
+#### Contact us page
 
+#### Thank you page
+
+### Full Testing
+
+To make sure my website works properly, I tested it on different web browsers like Google Chrome and Microsoft Edge, and also on different devices such as a Dell Inspiron 15-inch laptop and a Samsung A52S smartphone.
+
+Additionally, I inspected each page using Google Chrome Developer Tools to ensure that they appeared correctly and were responsive on various screen sizes.
+
+Links:
+
+- I conducted link testing on the index page, about us page, services page, contact us page, and thank you page. During the testing, it was confirmed that all the links on these pages operated as expected. Additionally, any links that directed to external pages successfully opened in separate browser tabs.
+
+Contact Us Form:
+
+1. The contact us form was tested by submitting it without filling in any input fields. The form correctly prompted the user to fill in the First Name field. After filling in the first name and submitting the form, the form directed the user to fill out the Last Name field. Upon completing the last name and submitting the form, the user was prompted to fill in the Email field. Finally, after filling in the first name, last name and email, the form successfully submitted and opened the thank you page in the same browser window, considering the phone number and message fields as optional.
+2. A test was performed by submitting the form with only the email address. The form correctly directed the user to fill in the First Name field. After providing the first name and email, the form prompted the user to fill out the Last Name field. Upon completing the first name, last name, and email, the form successfully submitted and opened the thank you page in the same browser window.
+3. Another test was conducted by submitting the form with only the message field filled in. The form correctly directed the user to fill in the First Name field and then the Last Name field. After providing the first name, last name, and message, the form prompted the user to fill in the email field. Finally, after filling in the first name, last name, email, and message, the form successfully submitted and opened the thank you page in the same browser window.
+
+- - -
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
+### Code Used
 
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
+- [LoveRunning source code from Code Institute](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode)
+- [README.md template from Code Institute](https://github.com/Code-Institute-Solutions/readme-template)
+- [README.md examples from kera-cudmore](https://github.com/kera-cudmore/readme-examples/tree/main)
+- [Bully-Book-Club from kera-cudmore](https://github.com/kera-cudmore/Bully-Book-Club)
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- Content for the website was written by Izabella Lopes.
+- The About section for CheckUp Dublin Center's homepage and welcome section has been rewritten with the assistance of [ChatGPT](https://chat.openai.com/), an AI language model developed by OpenAI.
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
 
 ### Media
 
@@ -246,19 +347,9 @@ Services page:
     - [gallery-8](https://unsplash.com/pt-br/fotografias/QsBfOwMoPNY) - Credit to Towfiqu barbhuiya, Unsplash. 
 
 
-## Other General Project Advice
+### Acknowledgments
 
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
+I would like to acknowledge the following individuals who helped me along the way in completing my first milestone project:
 
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
+- My family, for their strong support during my transition and development of a new career. Their names are featured in the testimonials and our team section of the CheckUp Dublin Center webpage as a way to honor them and show my appreciation.
+- Jubril Akolade, my Code Institute Mentor, for providing valuable advice.
