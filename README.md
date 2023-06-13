@@ -6,6 +6,8 @@ The goal of the CheckUp Dublin Center website is to provide a virtual clinic exp
 
 ![Responsice Mockup]()
 
+[View CheckUp Dublin Center Website](https://izabellalopes.github.io/checkup-dublin/)
+
 ## CONTENTS
 
 * [Design](#Design)
@@ -225,14 +227,15 @@ Google Dev Tools - To troubleshoot and test features, resolve issues related to 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
-
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+   - Sign in to your GitHub account.
+   - Locate the repository named "checkup-dublin" for this project.
+   - Click on the "Settings" link.
+   - In the left-hand side navigation bar, click on "Pages".
+   - In the "Source" section, choose "main" from the branch selection dropdown menu. Select "Root" from the folder selection dropdown menu.
+   - Click on "Save." Your GitHub Pages site is now deployed and can be accessed at the displayed URL.
 
-The live link can be found here -  
+The live link can be found here - [CheckUp Dublin Center](https://izabellalopes.github.io/checkup-dublin/)  
 
 - - -
 
