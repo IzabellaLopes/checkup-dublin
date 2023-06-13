@@ -6,6 +6,35 @@ The goal of the CheckUp Dublin Center website is to provide a virtual clinic exp
 
 ![Responsice Mockup]()
 
+## CONTENTS
+
+* [Design](#Design)
+  * [Color Scheme](#Color-Scheme)
+  * [Typography](#Typography)
+  * [Imagery](#Imagery)
+  * [Features](#Features)
+  * [Features Left to Implement](#Features-Left-to-Implement)
+  * [Accessibility](#Accessibility)
+
+* [Technologies Used](#Technologies-Used)
+  * [Languages Used](#Languages-Used)
+  * [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)
+
+* [Deployment](#Deployment)
+
+* [Testing and Solved Bugs](#Testing-and-solved-bugs)
+  * [Validator Testing](#Validator-Testing)
+  * [Lighthouse](#Lighthouse)
+  * [Full Testing](#Full-Testing)
+  
+* [Credits](#Credits)
+  * [Code Used](#Code-Used)
+  * [Content](#Content)
+  * [Media](#Media)
+  * [Acknowledgments](#Acknowledgments)
+
+- - -
+
 ## Design
 
 ### Color Scheme
@@ -34,11 +63,11 @@ Google Fonts was used for the following fonts:
 
 The website features a captivating array of imagery sourced from iStock, Lexica, and Unsplash, offering a diverse selection of high-quality visuals. To honor the sources of these remarkable images, proper credits have been given in the dedicated [credits](#Credits) section.
 
-## Features 
+### Features 
 
 The website consists of five pages, with four of them accessible through the navigation menu: the home page, the about CheckUp Dublin Center page, the services page, and the contact us page. The fifth page is a thank you page that appears after a user submits the form on the contact us page.
 
-### Existing Features
+#### Existing Features
 
 Every page on the website has:
 
@@ -315,7 +344,7 @@ Services page:
     - [gallery-8](https://unsplash.com/pt-br/fotografias/QsBfOwMoPNY) - Credit to Towfiqu barbhuiya, Unsplash. 
 
 
-## Acknowledgments
+### Acknowledgments
 
 I would like to acknowledge the following individuals who helped me along the way in completing my first milestone project:
 
