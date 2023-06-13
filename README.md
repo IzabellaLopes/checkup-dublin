@@ -18,7 +18,7 @@ The goal of the CheckUp Dublin Center website is to provide a virtual clinic exp
 
 * [Technologies Used](#Technologies-Used)
   * [Languages Used](#Languages-Used)
-  * [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)
+  * [Frameworks, Libraries & Programs Used](#Frameworks-Libraries-&-Programs-Used)
 
 * [Deployment](#Deployment)
 
