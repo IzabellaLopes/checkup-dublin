@@ -369,7 +369,7 @@ Services page:
 
 ### Acknowledgments
 
-I would like to acknowledge the following individuals who helped me along the way in completing my first milestone project:
+I would like to acknowledge the following individuals who helped me along the way in completing my first project:
 
 - My family, for their strong support during my transition and development of a new career. Their names are featured in the testimonials and our team section of the CheckUp Dublin Center webpage as a way to honor them and show my appreciation.
 - Jubril Akolade, my Code Institute Mentor, for providing valuable advice.
